@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>beta</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
+</head>
+<body>
+    <section class="sub-header">
+     <nav>
+            <a href="index.html"><img src="cake-logo.jpg"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">SweetCake</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+    </nav>
+    <h1>Our Courses Dessert Offer </h1>
+    
+    </section>
+   
+    <!------ course ------>
+    <section class="course">
+        <h1>Dessert Course</h1>
+        <p>Dessert courses are the perfect way to end a meal on a sweet note. From classic favorites like chocolate cake and apple pie to innovative creations like matcha ice cream and deconstructed cheesecake, there's something for every palate. Indulge in a little sweetness and treat yourself to a delicious dessert course!</p>
+        <div class="row">
+           <div class="course-col">
+            <h3>Cake</h3>
+            <p>Satisfy your sweet tooth with our decadent cakes that are not only visually stunning but also incredibly delicious. From moist chocolate layers to delicate fruit flavors, our cakes are the perfect indulgence for any occasion. Come and experience the heavenly taste of our cakes that will leave you wanting more!</p>
+           </div>
+           <div class="course-col">
+            <h3>Ice Cream</h3>
+            <p>Beat the heat with our creamy and refreshing ice cream that will transport your taste buds to a world of pure delight. Made from the finest ingredients, our ice cream is available in a range of mouth-watering flavors that are sure to please any palate. Treat yourself to a scoop (or two!) of our irresistible ice cream today!</p>
+           </div>
+           <div class="course-col">
+            <h3>Apple Pie</h3>
+            <p>There's nothing quite like the sweet aroma of freshly baked apple pie, with its crispy crust and juicy, cinnamon-spiced filling. Our apple pies are made with only the freshest ingredients and baked to perfection, resulting in a flavor that is both comforting and indulgent. Come and experience the warmth and coziness of our apple pies today!</p>
+           </div>
+        </div>
+    </section>
+     <!----- facilities ----->
+     <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Welcome to our bake area facilities, where we use state-of-the-art equipment and the finest ingredients to create delicious baked goods that are both beautiful and flavorful. Our team of expert bakers takes pride in crafting each item with care and precision, ensuring that every bite is a delightful experience.</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="world class baker.jpg">
+                <h3>World Class Baker</h3>
+                <p>Our bakers are dedicated to their craft and strive to produce the highest quality baked goods possible, using only the best ingredients and techniques. They put their hearts and souls into every creation, making sure that each item is a delicious masterpiece that customers will love.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="state-of-the-art.jpg">
+                <h3>Innovative & Safe</h3>
+                <p>Our state-of-the-art bake facilities are equipped with the latest technology and equipment, ensuring that every baked good is made to perfection. We maintain the highest standards of cleanliness and safety, providing our bakers with the perfect environment to create delicious treats.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="bakery.jpg">
+                <h3>Relax and take Sweet Time</h3>
+                <p>To ensure the safety of our customers, we strictly adhere to all food safety guidelines and regulations, including the proper handling and storage of ingredients. Our bakery is meticulously cleaned and sanitized regularly to maintain a clean and hygienic environment, ensuring that every customer can enjoy our delicious baked goods with confidence.</p>
+            </div>
+        </div>
+    </section>
+
+    <!----- footer ----->
+    <section class="footer">
+        <h4> About Us</h4>
+        <p>"Life is uncertain. Eat dessert first." - Ernestine Ulmer<br>
+
+            This quote perfectly captures the spirit of our bakery, where we believe that indulging in a sweet treat is one of life's simple pleasures. We are dedicated to creating delicious and beautiful baked goods that bring joy to our customers, and we hope that our treats will always put a smile on your face.</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p> made with <i class="fa fa-heart"></i> by easy tutorials</p>
+    </section>
+
+
+
+
+
+
+
+
+    <!--------javascript for toggle menu------->
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showmenu(){
+            navlinks.style.right = "0";   
+        }
+        function hidemenu(){
+            navlinks.style.right = "-200px";   
+        }
+    </script>
+</body>
+</html>

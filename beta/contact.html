@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>beta</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
+</head>
+<body>
+    <section class="sub-header">
+     <nav>
+            <a href="index.html"><img src="cake-logo.jpg"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">SweetCake</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+    </nav>
+    <h1>Contact Us</h1>
+    
+    </section>
+   <!----- contact is ----->
+   <section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3946.2253292416926!2d124.64644721532801!3d8.47745759971586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32fff2d0a7a71e47%3A0xfea582465d286396!2sOrorama%20Supercenter%20Cogon!5e0!3m2!1sen!2sph!4v1678335444656!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+   </section>
+
+   <section class="contact-us">
+    <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>xyz road, abc building</h5>
+                        <p>bangalore,karnaka, PHI</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <span>
+                        <h5>SweetCakes.Corp@yahoo.com</h5>
+                        <p>Email us your Order</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>09987654321</h5>
+                        <p>Monday to Saturday, 10am to 9pm</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form action="form-handler.php" method="post">
+                    <input type="text" name="name" placeholder="Enter Your Name">
+                    <input type="email" name="email" placeholder="Enter Email Address">
+                    <input type="text" name="subject" placeholder="Enter Your Sweets">
+                    <textarea  rows="8" name="subject" placeholder="Message" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Messsage</button>
+                </form>
+            </div>
+    </div>
+</section>
+    
+     
+
+    <!----- footer ----->
+    <section class="footer">
+        <h4> About Us</h4>
+        <p>"Life is uncertain. Eat dessert first." - Ernestine Ulmer<br>
+
+            This quote perfectly captures the spirit of our bakery, where we believe that indulging in a sweet treat is one of life's simple pleasures. We are dedicated to creating delicious and beautiful baked goods that bring joy to our customers, and we hope that our treats will always put a smile on your face.</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p> Made with <i class="fa fa-heart"></i> by Javier Sablas</p>
+    </section>
+    
+
+    <!--------javascript for toggle menu------->
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showmenu(){
+            navlinks.style.right = "0";   
+        }
+        function hidemenu(){
+            navlinks.style.right = "-200px";   
+        }
+    </script>
+</body>
+</html>

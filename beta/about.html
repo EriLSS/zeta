@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>beta</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
+</head>
+<body>
+    <section class="sub-header">
+     <nav>
+            <a href="index.html"><img src="cake-logo.jpg"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">SweetCake</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+    </nav>
+    <h1>About SweetCake</h1>
+    
+    </section>
+   
+   <!----- about us content ----->
+    <section class="about-us">
+        <div class="row">
+        <div class="about-col">
+            <h1>We are SweetCake</h1>
+            <p>Looking for a sweet escape from the daily grind? Come and visit our bakeshop for a mouth-watering array of delectable treats. Our skilled bakers use only the finest ingredients to create a range of scrumptious pastries, cakes, and breads that are sure to satisfy any craving. Don't miss out on the chance to indulge in a little slice of heaven!</p>
+            <a href="blog.html" class="hero-btn red-btn">Visit Us Now</a>
+
+        </div>
+        <div class="about-col">
+            <img src="baker&dessert.jpg">
+        </div>
+        </div>
+  
+    </section>
+  
+
+    
+
+    <!----- footer ----->
+    <section class="footer">
+        <h4> About Us</h4>
+        <p>"Life is uncertain. Eat dessert first." - Ernestine Ulmer<br>
+
+            This quote perfectly captures the spirit of our bakery, where we believe that indulging in a sweet treat is one of life's simple pleasures. We are dedicated to creating delicious and beautiful baked goods that bring joy to our customers, and we hope that our treats will always put a smile on your face.</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p> made with <i class="fa fa-heart"></i> by Javier Sablas</p>
+    </section>
+
+
+
+
+
+
+
+
+    <!--------javascript for toggle menu------->
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showmenu(){
+            navlinks.style.right = "0";   
+        }
+        function hidemenu(){
+            navlinks.style.right = "-200px";   
+        }
+    </script>
+</body>
+</html>

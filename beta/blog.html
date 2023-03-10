@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>beta</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
+</head>
+<body>
+    <section class="sub-header">
+     <nav>
+            <a href="index.html"><img src="cake-logo.jpg"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">SweetCakes</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+    </nav>
+    <h1>SweetCake Thought's </h1>
+    
+    </section>
+   <!----- blog page content ----->
+
+   <section class="blog-content">
+
+    <div class="row">
+        <div class="blog-left">
+            <img src="happy eating.avif">
+            <h2>Our Thought's of SweetCake </h2>
+            <p>Desserts are more than just a sweet treat at the end of a meal. They can be an indulgence that brings joy and satisfaction, or a nostalgic reminder of childhood memories. Desserts can also be a creative outlet for chefs and home cooks alike, allowing them to experiment with flavors and textures to create unique and delicious creations. Overall, desserts are a wonderful way to add a little sweetness to our lives and bring people together around the table.</p>
+            <br><p>Cake is a versatile dessert that can be enjoyed in a variety of ways. Whether it's a layered birthday cake, a simple sponge cake, or a rich chocolate cake, there's a cake for every occasion. Cake can be decorated with frosting, whipped cream, fresh fruit, or even edible flowers to make it both visually appealing and delicious. It's a dessert that brings people together, and the act of sharing a slice of cake is often a way to celebrate special moments and create memories.</p>
+            <br>
+            <div class="comment-box">
+                <h3>Leave a comment</h3>
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="Your Comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn" >Post Comment</button>
+                </form>
+            </div>
+
+        </div>
+        <div class="blog-right">
+            <h3>Dessert Courses</h3>
+            <div>
+                <span>Cake</span>
+                <span>Available</span>
+            </div>
+            <div>
+                <span>Tarts</span>
+                <span>Available</span>
+            </div>
+            <div>
+                <span>Cookies</span>
+                <span>Available</span>
+            </div>
+            <div>
+                <span>Biscuits</span>
+                <span>Available</span>
+            </div>
+            <div>
+                <span>Gelatins</span>
+                <span>Limited</span>
+            </div>
+            <div>
+                <span>Pastries</span>
+                <span>Available</span>
+            </div>
+            <div>
+                <span>Ice Cream</span>
+                <span>Available</span>
+            </div>
+            <div>
+                <span>Pies</span>
+                <span>Available</span>
+            </div>
+            <div>
+                <span>Puddings</span>
+                <span>Limited</span>
+            </div>
+            <div>
+                <span>Custard</span>
+                <span>Available</span>
+            </div>
+            <div>
+                <span>Candies</span>
+                <span>Limited</span>
+            </div>
+        </div>
+
+    </div>
+   </section>
+   
+
+    <!----- footer ----->
+    <section class="footer">
+        <h4> About Us</h4>
+        <p>"Life is uncertain. Eat dessert first." - Ernestine Ulmer<br>
+
+            This quote perfectly captures the spirit of our bakery, where we believe that indulging in a sweet treat is one of life's simple pleasures. We are dedicated to creating delicious and beautiful baked goods that bring joy to our customers, and we hope that our treats will always put a smile on your face.</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p> Made with <i class="fa fa-heart"></i> by Javier Sablas</p>
+    </section>
+
+
+
+
+
+
+
+
+    <!--------javascript for toggle menu------->
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showmenu(){
+            navlinks.style.right = "0";   
+        }
+        function hidemenu(){
+            navlinks.style.right = "-200px";   
+        }
+    </script>
+</body>
+</html>
